@@ -7,7 +7,7 @@ function gerarQRCode() {
         return;
     }
 
-    fetch('http://127.0.0.1:5000/generate', {
+    fetch('app-py-ghps-fcfbfkencvajdhc3.westcentralus-01.azurewebsites.net/generate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ text: text })
