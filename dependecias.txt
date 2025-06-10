@@ -1,0 +1,1 @@
+flask qrcode[pil] flask-cors
